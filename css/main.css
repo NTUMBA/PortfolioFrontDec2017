@@ -303,6 +303,9 @@ ul li .contacter_login:hover{
   max-width: 60%;
   max-height: 400px;
 }
+.javaSkill img{
+  width: 100%;
+}
 footer{
   padding: 6px;
 }
