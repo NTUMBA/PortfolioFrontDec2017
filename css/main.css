@@ -293,7 +293,7 @@ ul li .contacter_login:hover{
 
 }
 .contacter_login,.contacter_register{
-  color: #000;
+  color: #00008b;
   border: 2px solid #a9a9a9;
   padding: 5px;
 }
@@ -328,7 +328,7 @@ footer{
 .instructions{
   margin: 0 auto;
   width: 70%;
-  color: #00008b;
+  color: #fff8dc;
   font-weight: bold;
   font-size: 1.2em;
   border: 1px solid #ffff00;
