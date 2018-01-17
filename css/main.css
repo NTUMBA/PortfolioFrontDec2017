@@ -246,8 +246,10 @@ section,form,.instructions{
 }
 nav{
   font-weight: bold;
-  color: #ff8c00!important;
   border: 2 solid transparent;
+}
+nav,.container,h1,.welcomEffect,.page_bottom_style, .droit_reserve{
+  color: #ff8c00!important;
 }
 main{
   padding: 8%;
@@ -287,9 +289,6 @@ ul li{
   max-width: 90%;
 }
 .suggestion{
-}
-h1,.welcomEffect,.page_bottom_style, .droit_reserve{
-  color: #ffff00;
 }
 ul li .contacter_login:hover{
   list-style: none;
