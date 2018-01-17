@@ -110,14 +110,21 @@ body{
 .autor_logo{
   padding: 1%;
 }
+nav,.cognito,.inscription_envoyer{
+  background-color: #fff8dc;
+}
 .cognito{
   position: absolute;
   z-index:2;
   float: left;
   padding-left: 6px;
-  color: #00008b;
   font-weight: bold;
-  background-color: #fff8dc;
+}
+.contacter_login,.contacter_register,.cognito{
+  color: #00008b;
+
+}
+.cognito,.logo{
   border: 1px solid #ffff00;
 
 }
@@ -126,7 +133,7 @@ body{
   z-index:1;
   float: left;
   padding: 3px 13px 9px 9px;
-  color: #fff8dc;
+
 }
 .logo{
   position: absolute;
@@ -134,11 +141,12 @@ body{
   float: left;
   padding-left: 0;
   max-width: 150px;
-  border: 1px solid #ffff00;
   transition: transform 4s;
 }
-.autor_nom{
+header, footer,.helloo,.autor_nom{
   color:#fff8dc;
+}
+.autor_nom{
   float: right;
   font-weight: bold;
   font-size: 1.2em;
@@ -156,7 +164,6 @@ header{
 }
 header, footer{
 width: 100%!important;
-color: #fff8dc;
 font: normal, 1.5em, bold, cursive;
 background-color: #00008b;
 }
@@ -228,16 +235,17 @@ section{
   background-repeat: no-repeat;
   background-size: cover ;
   color: #696969;
-  margin: 0 auto;
   max-width: 95%;
   background-color: transparent;
   border: 1px solid #add8e6;
   opacity: 1;
+}
+section,form,.instructions{
+  margin: 0 auto;
 
 }
 nav{
   font-weight: bold;
-  background-color: #fff8dc;
   color: #ff8c00!important;
   border: 2 solid transparent;
 }
@@ -246,7 +254,6 @@ main{
 }
 
 h1{
-  color: #ffff00;
   font-weight: bold;
   font-size: 1.3em;
   border: 1px solid transparent;
@@ -268,10 +275,6 @@ ul {
 ul li{
   list-style: none;
 }
-form{
-
-  margin: 0 auto;
-}
 
 .autor_says{
   padding-left: 1%;
@@ -285,7 +288,7 @@ form{
 }
 .suggestion{
 }
-.welcomEffect{
+h1,.welcomEffect,.page_bottom_style, .droit_reserve{
   color: #ffff00;
 }
 ul li .contacter_login:hover{
@@ -293,7 +296,6 @@ ul li .contacter_login:hover{
 
 }
 .contacter_login,.contacter_register{
-  color: #00008b;
   border: 2px solid #a9a9a9;
   padding: 5px;
 }
@@ -316,7 +318,6 @@ footer{
 
 .page_bottom_style, .droit_reserved{
   width: 100%;
-  color:#ffff00;
   padding: 1px;
   border-top: 1px solid #00008b;
 
@@ -326,7 +327,6 @@ footer{
 }
 
 .instructions{
-  margin: 0 auto;
   width: 70%;
   color: #fff8dc;
   font-weight: bold;
@@ -388,7 +388,6 @@ ul .Effect_device{
 
 .inscription_envoyer{
   padding: 6px;
-  background-color: #fff8dc;
 }
 .inscription_envoyer:hover{
 color:#fff8dc;;
@@ -398,6 +397,7 @@ font-weight: bold;
 }
 
 .cognito:hover{
+  font-style: none;
   color:#00008b;
   border: 2px solid #00008b;
   background-color: #fff8dc;
@@ -444,14 +444,29 @@ background-color:  #add8e6;
 }
 /*Index======================================================================
 ==============================================================================*/
+#sestion_fade{
+      margin:0 auto;
+      position: relative;
+      max-height: 300px;
+      max-width: 350px;
 
+    }
+#section_fade img{
+  max-height: 245px;
+  max-width: 255px;
+  position: absolute;
+  left: 0;
+  transition: 2s all;
+}
+#section_fade .top:hover{
+  opacity: 0;
+}
 
 /*carousel======================================================================*/
 .carousel-inner{
   max-height: 50%;
   max-width: 50%;
-
-  margin: auto;
+  margin: 0 auto;
 
 }
 .carousel-inner img{
