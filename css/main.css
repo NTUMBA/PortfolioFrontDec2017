@@ -120,13 +120,11 @@ nav,.cognito,.inscription_envoyer{
   padding-left: 6px;
   font-weight: bold;
 }
-.contacter_login,.contacter_register,.cognito{
+.contacter_login,.contacter_register{
   color: #00008b;
-
 }
 .cognito,.logo{
-  border: 1px solid #ffff00;
-
+  border: 1px solid #ff8c00;
 }
 .helloo{
   position: relative;
@@ -248,7 +246,7 @@ nav{
   font-weight: bold;
   border: 2 solid transparent;
 }
-nav,.container,h1,.welcomEffect,.page_bottom_style, .droit_reserve{
+nav,.cognito,.container,h1,.welcomEffect,.page_bottom_style, .droit_reserve,.contacter_login{
   color: #ff8c00!important;
 }
 main{
@@ -292,7 +290,6 @@ ul li{
 }
 ul li .contacter_login:hover{
   list-style: none;
-
 }
 .contacter_login,.contacter_register{
   border: 2px solid #a9a9a9;
@@ -319,18 +316,17 @@ footer{
   width: 100%;
   padding: 1px;
   border-top: 1px solid #00008b;
-
 }
 .message_content{
   padding-bottom: 50px;
 }
-
+.presentation_projects,.instructions{
+  color: #fff8dc;
+}
 .instructions{
   width: 70%;
-  color: #fff8dc;
   font-weight: bold;
   font-size: 1.2em;
-  border: 1px solid #ffff00;
   background-color: #00bfff;
 }
 .portfolio{
@@ -366,6 +362,57 @@ ul .Effect_device{
     width: 100%;
   }
 }
+
+.inscription_envoyer,.presentation_projects{
+  padding: 6px;
+}
+
+.navhead{
+background-color:  #add8e6;
+}
+.navhead:hover{
+  color: #00bfff;
+}
+.presentation_projects{
+  margin-top: 15px;
+  background-color: #00bfff;
+  opacity: 0.85;
+}
+/*Index======================================================================
+==============================================================================*/
+#sestion_fade{
+      margin:0 auto;
+      position: relative;
+      max-height: 300px;
+      max-width: 350px;
+
+    }
+#section_fade img{
+  max-height: 245px;
+  max-width: 255px;
+  position: absolute;
+  left: 0;
+  transition: 2s all;
+}
+#section_fade .top:hover{
+  opacity: 0;
+}
+
+/*carousel======================================================================*/
+.carousel-inner{
+  max-height: 50%;
+  max-width: 50%;
+  margin: 0 auto;
+
+}
+.carousel-inner img{
+  margin: 0 auto;
+ width: 80%;
+ height:100%;
+}
+
+
+
 /*####################pseudo-class#############################################""*/
 
 .presentation:hover{
@@ -373,7 +420,7 @@ ul .Effect_device{
   max-width: 250px;
   color: #000;
   background-color: #fff8dc;
-  border:1px solid #ffff00;
+  border:1px solid #ff8c00;
 }
 .logo:hover{
   transform: rotate(360deg) translate(0px, 50px);
@@ -384,12 +431,8 @@ ul .Effect_device{
   width: 65%;
 }
 
-
-.inscription_envoyer{
-  padding: 6px;
-}
 .inscription_envoyer:hover{
-color:#fff8dc;;
+color:#fff8dc;
 background-color:#a9a9a9;
 font-size: 1.3em;
 font-weight: bold;
@@ -430,48 +473,6 @@ font-weight: bold;
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-}
-.navhead{
-
-background-color:  #add8e6;
-}
-.navhead:hover{
-  color: #00bfff;
-}
-.presentation_projects{
-  color: #add8e6;
-}
-/*Index======================================================================
-==============================================================================*/
-#sestion_fade{
-      margin:0 auto;
-      position: relative;
-      max-height: 300px;
-      max-width: 350px;
-
-    }
-#section_fade img{
-  max-height: 245px;
-  max-width: 255px;
-  position: absolute;
-  left: 0;
-  transition: 2s all;
-}
-#section_fade .top:hover{
-  opacity: 0;
-}
-
-/*carousel======================================================================*/
-.carousel-inner{
-  max-height: 50%;
-  max-width: 50%;
-  margin: 0 auto;
-
-}
-.carousel-inner img{
-  margin: 0 auto;
- width: 80%;
- height:100%;
 }
 
 
