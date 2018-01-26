@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @NTUMBA
+ Sign out
+ Unwatch 1
+  Star 0  Fork 0 NTUMBA/PortfolioFrontDec2017
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+Branch: master Find file Copy pathPortfolioFrontDec2017/css/main.css
+4a5455b  8 days ago
+@NTUMBA NTUMBA Fixing opacity, borders and colors
+1 contributor
+RawBlameHistory
+Executable File  724 lines (625 sloc)  13.3 KB
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
@@ -224,7 +242,7 @@ ul .surf{
   margin-left: 583px;
 }
 .triangle_11{
-  margin-left: 942px;
+  margin-left: 947px;
 
 }
 
