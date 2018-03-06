@@ -558,10 +558,11 @@ font-weight: bold;
        max-width: 250px;
      }
 
+
 }
 /* ############################   DESKTOPS   ########################### */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width:1100px) {
+@media (min-width:900px) {
   .triangle_1,.triangle_2,.triangle_3,.triangle_4,.triangle_5,.triangle_6,.triangle_7,.triangle_8,.triangle_9,.triangle_10,.triangle_11{
     display: none;
         }
