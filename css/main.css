@@ -324,7 +324,7 @@ ul li .contacter_login:hover{
   max-height: 40%;
 }
 .javaSkill img{
-  width: 70%;
+  width: 80%;
 }
 footer{
   padding: 6px;
@@ -342,10 +342,13 @@ footer{
   color: #fff8dc;
 }
 .instructions{
-  width: 70%;
+  width: 80%;
   font-weight: bold;
   font-size: 1.2em;
   background-color: #00bfff;
+  border: 1px solid  #ff8c00;
+  color: #ff8c00;
+  border-radius: 6px;
 }
 .portfolio{
   margin-bottom: 8px;
@@ -429,7 +432,14 @@ background-color:  #add8e6;
  height:100%;
 }
 
-
+.projectTitle{
+  padding: 5px;
+  color:  #fff8dc;
+  background-color: #00bfff;
+  border:1px solid #ff8c00;
+  border-radius: 6px;
+  opacity: 0.8;
+}
 
 /*####################pseudo-class#############################################""*/
 
