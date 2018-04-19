@@ -256,7 +256,7 @@ section{
   border: 1px solid #add8e6;
   opacity: 1;
 }
-section,form,.instructions{
+section,form{
   margin: 0 auto;
 
 }
@@ -347,6 +347,8 @@ footer{
   color: #fff8dc;
 }
 .instructions{
+  margin:0 6px 6px 150px;
+  padding-right:3px ;
   width: 80%;
   font-weight: bold;
   font-size: 1.2em;
