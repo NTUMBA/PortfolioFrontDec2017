@@ -267,6 +267,11 @@ nav{
 nav,.cognito,.container,h1,.welcomEffect,.page_bottom_style, .droit_reserve,.contacter_login{
   color: #ff8c00!important;
 }
+.simonitite img{
+  top:0;
+  right:0;
+  max-width: 30%;
+}
 main{
   padding: 8%;
 }
@@ -401,18 +406,13 @@ background-color:  #add8e6;
 }
 /*Index======================================================================
 ==============================================================================*/
-#sestion_fade{
-      margin:0 auto;
-      position: relative;
-      max-height: 300px;
-      max-width: 350px;
-
-    }
-#section_fade img{
+.imageForAllUsers img{
+  left: 0;
   max-height: 245px;
   max-width: 255px;
+}
+#section_fade img{
   position: absolute;
-  left: 0;
   transition: 2s all;
 }
 #section_fade .top:hover{
