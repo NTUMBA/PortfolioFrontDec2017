@@ -350,12 +350,10 @@ footer{
   margin:0 6px 6px 150px;
   padding-right:3px ;
   width: 80%;
-  font-weight: bold;
   font-size: 1.2em;
-  background-color: #00bfff;
+  background-color: #fff8dc;
   border: 1px solid  #ff8c00;
-  color: #ff8c00;
-  border-radius: 6px;
+  color: #00008b;
 }
 .portfolio{
   margin-bottom: 8px;
@@ -508,16 +506,6 @@ font-weight: bold;
 
 
 /* ##################################################################### */
-@media (max-width: 670px) {
-      .triangle_1,.triangle_2,.triangle_3,.triangle_4{
-
-      }
-      .menu_bord{
-        border: 3px solid #add8e6;
-      }
-
-
-  }
 @media (min-width: 375px) {
         .wrap{
           min-height:calc(100vh - 60px);
@@ -539,17 +527,7 @@ font-weight: bold;
 
    }
   }
-  @media (max-width: 640px) {
-
-    .responsive_small_device{
-      margin-top: 3px;
-      padding-top: 5px;
-      width: 97%;
-      border: 2px solid #a9a9a9;
-
-     }
-    }
-/* Small devices (tablets, 544px ) */
+/* Medium devices (tablets, 544px ) */
 
    @media (min-width: 544px) {
      .contacter_login,.contacter_register{
@@ -560,7 +538,27 @@ font-weight: bold;
      }
 }
 
-/* Small devices (tablets, 769px and up) */
+@media (max-width: 640px) {
+
+  .responsive_small_device{
+    margin-top: 3px;
+    padding-top: 5px;
+    width: 97%;
+    border: 2px solid #a9a9a9;
+
+  }
+}
+@media (max-width: 670px) {
+  .triangle_1,.triangle_2,.triangle_3,.triangle_4{
+
+  }
+  .menu_bord{
+    border: 3px solid #add8e6;
+  }
+
+
+}
+/* large devices (tablets, 769px and up) */
    @media (min-width: 769px) {
 
      .contacter_login,.contacter_register{
@@ -569,7 +567,12 @@ font-weight: bold;
      .dev img{
        max-width: 250px;
      }
-
+     /* lextralarge devices (tablets, 769px and up) */
+   @media(min-width: 1100px){
+     .triangle_1,.triangle_2,.triangle_3,.triangle_4{
+display:none;
+     }
+   }
 
 }
 /* ############################   DESKTOPS   ########################### */
