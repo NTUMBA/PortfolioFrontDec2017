@@ -167,7 +167,6 @@ header, footer,.helloo,.autor_nom{
   font-weight: bold;
   font-size: 1.2em;
   background-color: transparent;
-;
 }
 .title_project{
   font-weight: bolder;
@@ -335,11 +334,11 @@ footer{
   padding: 6px;
 }
 
-.page_bottom_style, .droit_reserved{
+.page_bottom_style{
   width: 100%;
-  padding: 1px;
   border-top: 1px solid #00008b;
 }
+
 .message_content{
   padding-bottom: 50px;
 }
@@ -522,9 +521,7 @@ font-weight: bold;
    }
 }
 @media (min-width: 440px) {
-
   .responsive_small_device{
-
    }
   }
 /* Medium devices (tablets, 544px ) */
@@ -536,7 +533,15 @@ font-weight: bold;
      .dev img{
        max-width: 250px;
      }
-}
+   }
+   @media (max-width: 544px) {
+     body{
+       font-size: 0.8em;
+     }
+     .dev img{
+       max-width: 250px;
+     }
+   }
 
 @media (max-width: 640px) {
 
@@ -555,26 +560,33 @@ font-weight: bold;
   .menu_bord{
     border: 3px solid #add8e6;
   }
-
-
 }
 /* large devices (tablets, 769px and up) */
    @media (min-width: 769px) {
-
      .contacter_login,.contacter_register{
        font-size: 0.9em;
      }
      .dev img{
        max-width: 250px;
      }
+   }
+     @media(max-width: 1250px){
+       .imageForAllUsers{
+        display:none;
+       }
+       .instructions{
+         margin: 0 auto;
+       }
+     }
+
      /* lextralarge devices (tablets, 769px and up) */
-   @media(min-width: 1100px){
-     .triangle_1,.triangle_2,.triangle_3,.triangle_4{
-display:none;
+   @media(min-width: 1300px){
+     .triangle{
+      display:none;
      }
    }
 
-}
+
 /* ############################   DESKTOPS   ########################### */
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:700px) {
