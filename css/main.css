@@ -433,11 +433,11 @@ background-color:  #add8e6;
 
 .projectTitle{
   padding: 5px;
-  color:  #fff8dc;
+  color:  #000;
   background-color: #00bfff;
   border:1px solid #ff8c00;
   border-radius: 6px;
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 /*####################pseudo-class#############################################""*/
