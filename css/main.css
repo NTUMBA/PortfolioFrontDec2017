@@ -441,6 +441,9 @@ background-color:  #add8e6;
 }
 
 /*####################pseudo-class#############################################""*/
+input:required {
+			background: #00bfff;
+		}
 
 .presentation:hover{
   margin: 0 auto;
@@ -484,7 +487,7 @@ font-weight: bold;
                0 20px 20px rgba(0,0,0,.15);
 }
 
-.cognito:hover{
+/*.cognito:hover{
   color:#00008b;
   border: 2px solid #00008b;
   background-color: #fff8dc;
@@ -500,7 +503,7 @@ font-weight: bold;
                0 5px 10px rgba(0,0,0,.25),
                0 10px 10px rgba(0,0,0,.2),
                0 20px 20px rgba(0,0,0,.15);
-}
+}*/
 
 
 

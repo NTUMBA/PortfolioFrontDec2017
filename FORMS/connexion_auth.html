@@ -82,12 +82,13 @@
 
                   <form class=" welcomEffect_contact" action="../incoming.html" method="post">
                     <div class="contacter_login">
-                      <label for="name_user" value="Your name"></label><input type="text" name="name_user" class="formInput">
+                      <label for="name_user" value="Your name"></label><input type="text" name="name" id= "champ1" class="formInput" placeholder="Nom"  required>
                     </div>
                       <ul class="contacter_login_register ">
-                      <li class="contacter_login formInput"><label for="email_user" ></label><input type="text" name="email_user" value="Email"></li>
+                      <li class="contacter_login formInput"><label></label><input type="email" name="email" id= "champ2" placeholder="example@gmail.com"  required></li>
                       <li class="contacter_login formInput"><label for="pass_word_user" > </label><input type="password" name="pass_word_user" value="Pass-word"></li>
                     </ul>
+                    <input type="reset" value="reset" class="inscription_envoyer" > <!--Vider le formulaire -->
                     <div class="">
                       <input type="submit" name="connexion" class="inscription_envoyer" value="Submit">
                     </div>
