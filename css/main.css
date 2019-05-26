@@ -572,19 +572,11 @@ font-weight: bold;
      .dev img{
        max-width: 250px;
      }
-   }
-     @media(max-width: 1250px){
-       .imageForAllUsers{
-        display:none;
-       }
+
        .instructions{
          margin: 0 auto;
        }
-     }
-
-     /* lextralarge devices (tablets, 769px and up) */
-   @media(min-width: 1300px){
-     .triangle{
+     .imageForAllUsers,.triangle_1,.triangle_2,.triangle_3,.triangle_4.triangle_5,.triangle_6;.triangle_7,.triangle_8,.triangle_9,.triangle_10,.triangle_11{
       display:none;
      }
    }
