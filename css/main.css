@@ -196,55 +196,6 @@ ul .surf{
   justify-content: flex-start;
 }
 
-.triangle_1,.triangle_2,.triangle_3,.triangle_4,.triangle_5,.triangle_6,.triangle_7,.triangle_8,.triangle_9,.triangle_10,.triangle_11{
-  position: absolute;
-  z-index: 3;
-  margin-top: -19px;
-  width: 0;
-  height: 0;
-  border-left: 13px solid transparent;
-  border-right: 13px solid transparent;
-  border-top: 13px solid #0275D8;
-}
-
-
-.triangle_1{
-  margin-left: 196px;
-}
-
-.triangle_2{
-  margin-left: 544px;
-}
-.triangle_3{
-  margin-left: 904px;
-
-}
-.triangle_4{
-  margin-left: 210px;
-}
-.triangle_5{
-  margin-left: 568px;
-}
-.triangle_6{
-  margin-left: 912px;
-}
-.triangle_7{
-  margin-left: 197px;
-}
-.triangle_8{
-  margin-left: 555px;
-}
-.triangle_9{
-  margin-left: 209px;
-}
-.triangle_10{
-  margin-left: 583px;
-}
-.triangle_11{
-  margin-left: 947px;
-
-}
-
 section{
   background-image: url('../img/DSCF4898.JPG');
   background-repeat: no-repeat;
@@ -556,10 +507,7 @@ font-weight: bold;
 
   }
 }
-@media (max-width: 670px) {
-  .triangle_1,.triangle_2,.triangle_3,.triangle_4{
 
-  }
   .menu_bord{
     border: 3px solid #add8e6;
   }
@@ -576,7 +524,7 @@ font-weight: bold;
        .instructions{
          margin: 0 auto;
        }
-     .imageForAllUsers,.triangle_1,.triangle_2,.triangle_3,.triangle_4.triangle_5,.triangle_6;.triangle_7,.triangle_8,.triangle_9,.triangle_10,.triangle_11{
+     .imageForAllUsers{
       display:none;
      }
    }
@@ -584,11 +532,7 @@ font-weight: bold;
 
 /* ############################   DESKTOPS   ########################### */
 /* Medium devices (desktops, 992px and up) */
-@media (min-width:700px) {
-  .triangle_1,.triangle_2,.triangle_3,.triangle_4,.triangle_5,.triangle_6,.triangle_7,.triangle_8,.triangle_9,.triangle_10,.triangle_11{
-    display: none;
-        }
-}
+
 
 
 /* ==========================================================================
